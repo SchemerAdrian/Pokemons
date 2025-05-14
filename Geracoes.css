@@ -37,7 +37,7 @@ body {
   }
 
   .foto {
-    background: white;
+    background: rgba(9, 9, 9, 0.251);
     border: 3px solid #000000;
     overflow: hidden;
     position: relative;
