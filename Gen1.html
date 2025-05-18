@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="Primeira Geração" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Primeira Geração</title>
     <script src="Gen1.js"></script>
 </head>
+
 <body>
     <header>
         <h1>Todos os Pokemons da Primeira Geração</h1>
@@ -16,25 +18,23 @@
         <a href="Gen1.html">Gen 1</a>
         <a href="Gen2.html">Gen 2</a>
         <a href="#">Gen 3</a>
-        </nav>
+    </nav>
     <main>
         <div class="destaque">
             <div class="numero">
-                <p id="numero">001</p>
+                <p id="numero"></p>
             </div>
-            <div class="foto">
-                <img src="Gen1/Gengar.png" alt="Gengar">
-            </div>
-            <div class="esquerda">
+            <div class="imagem">
+                <img id="imagem" src="" alt="">
             </div>
             <div class="descricao">
-                <p>Nome: <id="nome">Gengar</id></p>
-                <p>Tipo: <id="tipo">Ghost/ Poison</id></p>
-                <p>Descrição: <id="descricao">Sob a lua cheia, este pokemon gosta de imitar as sombras das pessoas e rir do medo delas.</id></p>
+                <p>Nome: <span id="nome"></span></p>
+                <p>Tipo: <span id="tipo"></span></p>
+                <p>Descrição: <span id="descricao"></span></p>
             </div>
             <div class="botoes">
-                <button id="anterior">Anterior</button>
-                <button id="proximo">Proximo</button>
+                <button onclick="anterior()">Anterior</button>
+                <button onclick="proximo()">Proximo</button>
             </div>
         </div>
     </main>
@@ -42,5 +42,7 @@
     <footer>
         <p>© 2025 - Criado por Adrian Schemer</p>
     </footer>
+
 </body>
+
 </html>
