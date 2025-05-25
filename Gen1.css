@@ -31,16 +31,16 @@ nav a {
 }
 
 main {
-  padding: 15%;
-  background-color: #fef2f2;
+  background-color: #ce0c0c4f;
 }
 
 .destaque {
   display: flex;
   flex-direction: column;
   border: 3px solid rgb(0, 0, 0);
-  background-color: rgba(249, 0, 0, 0.152);
+  background-color: rgba(223, 144, 144, 0.601);
   justify-content: center;
+  margin: 5% 25% 5% 25%;
 }
 
 .numero {
@@ -65,8 +65,9 @@ main {
 .imagem img {
   width: 200px;
   height: 200px;
-  background-color: rgb(96, 2, 130);
+  background-color: rgb(249, 0, 0, 0.152);
   border: 3px solid rgb(0, 0, 0);
+  border-radius: 10px;
 }
 
 .descricao {
@@ -79,7 +80,7 @@ main {
   display: flex;
   justify-content: center;
   padding: 10px 20px 20px 20px;
-  gap: 50px;
+  gap: 10%;
 }
 
 .botoes button {
@@ -88,3 +89,10 @@ main {
   padding: 2% 15% 2% 15%;
   border-radius: 10px;
 }
+
+button:hover {
+      background-color: #45a049;
+  }
+  nav a:hover {
+      color: #ff0000;
+  }
